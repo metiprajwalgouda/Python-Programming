@@ -1,0 +1,95 @@
+🐍 Python — Suggested Questions
+Level 1: Basics (syntax, control flow)
+
+Check if a number is prime / palindrome / Armstrong number
+Reverse a string / number without built-in reverse
+FizzBuzz
+Find factorial (iterative + recursive)
+Count vowels/consonants in a string
+
+Level 2: Data structures
+
+Find duplicates in a list
+Find the second largest element in a list
+Remove duplicates from a list without using set()
+Implement a stack and queue using lists
+Anagram checker
+Word frequency counter using dictionaries
+Matrix transpose / matrix multiplication
+
+Level 3: Algorithms
+
+Binary search (iterative + recursive)
+Bubble sort, selection sort, merge sort (implement manually, not sorted())
+Linear search vs binary search comparison
+Fibonacci (recursive, iterative, memoized)
+Two-sum problem
+Sliding window: max sum subarray of size k
+
+Level 4: OOP + File handling (since you're security-focused, this connects well)
+
+Class-based implementation of a simple bank account / inventory system
+Read/write to a file, basic file parser
+Exception handling: custom exceptions
+A simple Caesar cipher / XOR cipher implementation (ties into your crypto projects!)
+Basic hash function implementation
+
+Level 5: Security-flavored (since it's your specialization — this is your differentiator)
+
+Simple password strength checker
+Basic port scanner using socket
+Log file parser to detect suspicious login attempts
+URL/domain validator using regex
+A basic keylogger detector or file integrity checker (hash comparison)
+
+
+🇨 C — Suggested Questions
+Level 1: Basics
+
+Prime number check, Armstrong number, palindrome
+Swap two numbers (with and without a third variable)
+Reverse a string/array without built-in functions
+Pattern printing (triangles, pyramids — shows control-flow comfort)
+
+Level 2: Arrays & Strings
+
+Find max/min in array
+Bubble sort, selection sort, insertion sort (manual implementation — very commonly asked)
+String length, string reverse, string comparison (without strlen, strrev, strcmp)
+Matrix addition/multiplication
+Find duplicates in an array
+
+Level 3: Pointers & Memory (this is where C interviews really test you)
+
+Pointer arithmetic examples
+Dynamic memory allocation (malloc, calloc, free) — e.g. dynamic array
+Swap using pointers
+Function pointers example
+Simple linked list: insert, delete, traverse, reverse
+
+Level 4: Data Structures
+
+Stack implementation using array
+Queue implementation using array
+Singly linked list operations
+Binary search implementation
+Recursion: factorial, Fibonacci, GCD (Euclidean algorithm)
+
+Level 5: Security-flavored / systems-level (great differentiator for SOC-analyst goals)
+
+Simple XOR encryption/decryption program
+Basic Caesar cipher in C
+Simple checksum / hash implementation
+Bitwise operations demo (AND, OR, XOR, shifts) — relevant to security & networking
+A simple command-line password validator
+
+
+How to structure this in your repos
+For each question, include:
+
+Problem statement (as a comment or separate .md)
+Your solution code
+A one-line note on time/space complexity (shows you think about efficiency, not just correctness)
+
+This way an interviewer skimming your repo folder names instantly sees: fundamentals → data structures → pointers/OOP → security applications — a clear signal of both your coding level and your specialization.
+Want me to generate the actual starter files (with problem statements + solution templates) for Day 1 of each repo so you can commit today and get the ball rolling?
