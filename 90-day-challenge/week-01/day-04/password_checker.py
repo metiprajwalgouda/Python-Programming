@@ -6,9 +6,14 @@ at least one upper case must be present in it
 password must contan special character
 """)
 password=input("Enter Password : ")
+has_upper_case=any(char.isupper() for char in password)
+special_char=["!","@","#","$","%","&"]
 if len(password)>=8:
     if password.isdigit():
-        print()
+        if has_upper_case:
+            print(f"Password is stored successfully your password is {password}")
+        else:
+            print("Password must contain any upper case letter")
     else:
         print("Password must contain any digit in it.")
 else:
