@@ -3,9 +3,8 @@ Take a number of seconds, for example 3725, and print it as hours, minutes, and 
 """
 total_seconds=int(input("Enter total number of seconds to see time in hours min seconds : "))
 seconds=total_seconds % 60
-total_minutes=total_seconds - seconds
-total_hour=total_minutes//60
-minutes=total_hour % 60
-hour=(total_hour-minutes)//60
+total_minutes=total_seconds // 60
+minutes=total_minutes % 60
+hour=total_minutes//60
 
 print(f"Hour:{hour},Minutes:{minutes},Seconds:{seconds}")

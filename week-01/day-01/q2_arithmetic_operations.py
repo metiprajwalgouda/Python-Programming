@@ -4,17 +4,17 @@ Take two numbers from the user and print their sum, difference, product, divisio
 
 num1=int(input("Enter num 1 : "))
 num2=int(input("Enter num 2 : "))
-sum=num1+num2
-difference=num1-num2
-product=num1*num2
-division=num1/num2
-floor_division=num1//num2
-remainder=num1%num2
-power=num1**num2
-print(f"Sum of 2 numbers is : {sum}")
-print(f"Difference of 2 numbers is : {difference}")
-print(f"Product of 2 numbers is : {product}")
-print(f"Divison of num 1 by num 2 is : {division}")
-print(f"Floor division of num 1 and num 2 is : {floor_division}")
-print(f"Remainder of num 1 divided by num 2 is : {remainder}")
-print(f"Power of num 1 to num 2 is : {power}")
+sum_result=num1+num2
+difference_result=num1-num2
+product_result=num1*num2
+division_result=num1/num2
+floor_division_result=num1//num2
+remainder_result=num1%num2
+power_result=num1**num2
+print(f"Sum of 2 numbers is : {sum_result}")
+print(f"Difference of 2 numbers is : {difference_result}")
+print(f"Product of 2 numbers is : {product_result}")
+print(f"Divison of num 1 by num 2 is : {division_result}")
+print(f"Floor division of num 1 and num 2 is : {floor_division_result}")
+print(f"Remainder of num 1 divided by num 2 is : {remainder_result}")
+print(f"Power of num 1 to num 2 is : {power_result}")
